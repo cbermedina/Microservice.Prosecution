@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+	
+	<ItemGroup>
+	  <ProjectReference Include="..\Microservice.Prosecution.Application.Contracts\Microservice.Prosecution.Application.Contracts.csproj" />
+	  <ProjectReference Include="..\Microservice.Prosecution.DataAccess.Contracts\Microservice.Prosecution.DataAccess.Contracts.csproj" />
+	</ItemGroup>
+</Project>
