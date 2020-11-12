@@ -36,6 +36,7 @@
         {
             if (retryNumber > retryCount)
             {
+                throw new Exception("Hola");
                 int resultSum = lstInformationFile.Sum();
                 Thread.Sleep(100);
             }
